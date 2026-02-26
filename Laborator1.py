@@ -26,6 +26,9 @@ def transforma_in_baza_10(numar, alfabet):
         rezultat = rezultat * N + alfabet.index(letter)
     return rezultat
 
+
+
+#Acesta este exercitiul din tema
 def transforma_din_baza_n(numar, baza):
     if numar == 0:
         return "0"
@@ -59,4 +62,5 @@ print(f"13 * 7 in baza 10: {calcule('13', '7', 10, '*')}")
 # n = transforma_in_baza_10("ZECE", alfabet)
 # print(n)
 # print(alfabet)
+
 
